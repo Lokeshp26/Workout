@@ -1,0 +1,170 @@
+#main{
+    height: 678px;
+    width: 791px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left: 330px;
+    top: 20px;
+    border-radius: 16px;
+}
+.first{
+    display: flex;
+    height:60px;
+    width: 700px;
+   padding: 4px;
+   margin-bottom: 16px;
+}
+.first1{
+    display: flex;
+    height:60px;
+    width: 700px;
+   padding: 4px;
+   margin-top: 16px;
+}
+.second{
+    display: flex;
+    height: 60px;
+    width: 700px;
+   padding: 4px;
+}
+
+.third{
+    display: flex;
+    height: 60px;
+    width: 784px;
+   padding: 4px;
+   margin-top: 15px;
+   margin-bottom:15px;
+}
+
+.a1{
+    background-color: aquamarine;
+    border-radius: 16px;
+    height: 80px;
+    margin: 2px;
+}
+.a2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    height: 80px;
+    margin: 2px;
+}
+ input{
+    width: 94px;
+    border: none;
+    background-color: transparent;  
+    border-radius: 16px;  
+}
+.empty{
+    width: 120px;
+    border: none;
+ 
+    border-radius: 16px;  
+}
+
+.queen,.queen2,.ele,.ele2,.horse,.bishop,.king,.king2,.sol1,.sol11,.sol22,.bishop1,.horse1,.horse2,.horse21,.sol2,.bishop2,.bishop21{
+    padding: 6px;
+    padding-top: 0px;
+    font-size: 70px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* actions */
+
+.ele:focus { 
+
+  border: 0px solid rgba(0, 0, 0, 0);
+    transform: translateY(410px) rotateY(360deg);
+    transition: all 3s ease;
+}
+.ele2:focus {
+    transform: translateY(-340px)rotateY(360deg) ;
+    transition: all 3s ease;
+}
+
+.horse:focus{
+    transform: translateY(160px) translateX(100px)rotateY(180deg);
+   
+    transition: all 2s ease;
+}
+.horse1:focus{
+    transform: translateY(160px) translateX(-100px)rotateY(180deg);
+   
+    transition: all 2s ease;
+}
+.bishop:focus{
+    transform: translateY(410px) translateX(490px)rotateY(360deg);
+    transition: all 3s ease;
+}
+.bishop1:focus{
+    transform: translateY(320px) translateX(-390px)rotateY(360deg);
+   
+    transition: all 3s ease;
+}
+.queen:focus{
+    transform: translateY(330px) translateX(0px)rotateY(360deg);
+   
+    transition: all 2s ease;
+}
+.queen2:focus{
+    transform: translateY(-260px) translateX(0px)rotateY(360deg);
+   
+    transition: all 2s ease;
+}
+.king:focus{
+    transform: translateY(0px) translateX(0px);
+   
+    transition: all 2s ease;
+}
+.king2:focus{
+    transform: translateY(-0px) translateX(0px);
+   
+    transition: all 2s ease;
+}
+.bishop2:focus{
+    transform: translateY(-420px) translateX(490px)rotateY(360deg);
+   
+    transition: all 3s ease;
+}
+.bishop21:focus{
+    transform: translateY(-420px) translateX(-490px)rotateY(360deg);
+   
+    transition: all 3s ease;
+}
+.horse2:focus{
+    transform: translateY(-170px) translateX(100px) rotateY(180deg);
+   
+    transition: all 2s ease;
+}
+.horse21:focus{
+    transform: translateY(-170px) translateX(-100px)rotateY(180deg);
+   
+    transition: all 2s ease;
+}
+
+.sol1:focus {
+    transform: translateY(80px)rotateY(360deg) ;
+    transition: all 2s ease;
+}
+.sol11:focus {
+    transform: translateY(-90px)rotateY(360deg) ;
+    transition: all 2s ease;
+}
+.sol2:focus {
+    transform: translateY(160px) ;
+    transition: all 2s ease;
+}
+.sol22:focus {
+    transform: translateY(-170px) ;
+    transition: all 2s ease;
+}
+
+/* actions */
